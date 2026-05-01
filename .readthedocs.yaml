@@ -5,7 +5,7 @@ build:
   tools:
     python: "3.13"
 
-python:
+jobs:
   install:
     - method: uv
       command: sync
